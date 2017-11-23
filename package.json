@@ -4,7 +4,8 @@
   "description": "Simple web server using PHP built-in web server.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/run.js"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,6 @@
     "node-cmd": "^3.0.0"
   },
   "bin": {
-    "lws": "./index.js"
+    "lws": "bin/run.js"
   }
 }
