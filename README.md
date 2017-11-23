@@ -7,23 +7,13 @@ npm install light-web-server --save-dev
 ```
 
 ## Usage
-In your project `package.json` file define script like:
-
 ```
-"scripts": {
-    "serve": "light-web-server --port=8000 --dir=test/"
-}
+lws --port=9000 --dir=test/
 ```
 
-then, run command in terminal:
+It will start web server available at `http://localhost:9000/` (default port is `8000`).
 
-```
-npm run serve
-```
-
-It will start web server on `http://localhost:8000/` with a specific document root directory (`/test`).
-
-Default port is `8000` (it is optional flag).
+URI requests are served from the current working directory, unless the `--dir=` flag is used to specify an explicit document root.
 
 ## PHP version
 7.1.11
