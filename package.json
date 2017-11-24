@@ -7,7 +7,7 @@
   "main": "index.js",
   "scripts": {
     "pretest": "npm run fix",
-    "test": "standard && node ./test/test.js",
+    "test": "standard && tap test/test.js --coverage",
     "start": "node ./bin/run.js --dir=dist",
     "fix": "standard --fix"
   },
