@@ -10,3 +10,5 @@ cache:
   directories:
     - $HOME/.npm
     - node_modules
+env:
+  - COVERALLS_REPO_TOKEN=uUEysA0ilWayAooW7O4FRg6evrjnu6xyV
