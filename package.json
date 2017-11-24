@@ -2,18 +2,23 @@
   "name": "light-web-server",
   "version": "1.0.2",
   "description": "Simple web server using PHP built-in web server.",
+  "author": "Ivan Rozhon",
+  "license": "MIT",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./bin/run.js"
+    "pretest": "npm run fix",
+    "test": "standard && node ./test/test.js",
+    "start": "node ./bin/run.js --dir=dist",
+    "fix": "standard --fix"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ivan-rozhon/light-web-server.git"
   },
-  "keywords": [],
-  "author": "Ivan Rozhon",
-  "license": "MIT",
+  "keywords": [
+    "web server",
+    "cli"
+  ],
   "bugs": {
     "url": "https://github.com/ivan-rozhon/light-web-server/issues"
   },
@@ -21,6 +26,10 @@
   "dependencies": {
     "flags": "^0.1.3",
     "node-cmd": "^3.0.0"
+  },
+  "devDependencies": {
+    "standard": "^10.0.3",
+    "tap": "^10.7.3"
   },
   "bin": {
     "lws": "bin/run.js"

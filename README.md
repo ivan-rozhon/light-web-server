@@ -1,4 +1,8 @@
 # Light web server
+[![dependencies](https://david-dm.org/ivan-rozhon/light-web-server.svg?style=flat-square)](https://david-dm.org/ivan-rozhon/light-web-server)
+[![devDependencies](https://david-dm.org/ivan-rozhon/light-web-server/dev-status.svg?style=flat-square)](https://david-dm.org/ivan-rozhon/light-web-server#info=devDependencies)
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square)](https://standardjs.com)
+
 Simple web server using PHP built-in web server.
 
 ## Instalation
