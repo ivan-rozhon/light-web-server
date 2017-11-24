@@ -2,9 +2,10 @@
 [![dependencies](https://david-dm.org/ivan-rozhon/light-web-server.svg)](https://david-dm.org/ivan-rozhon/light-web-server)
 [![devDependencies](https://david-dm.org/ivan-rozhon/light-web-server/dev-status.svg)](https://david-dm.org/ivan-rozhon/light-web-server#info=devDependencies)
 [![Build Status](https://travis-ci.org/indexzero/http-server.svg?branch=master)](https://travis-ci.org/indexzero/http-server)
+[![Coverage Status](https://coveralls.io/repos/github/ivan-rozhon/light-web-server/badge.svg?branch=master)](https://coveralls.io/github/ivan-rozhon/light-web-server?branch=master)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-Simple web server using PHP built-in web server.
+Simple web server using [PHP built-in web server](http://php.net/manual/en/features.commandline.webserver.php).
 
 ## Instalation
 ```
