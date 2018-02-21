@@ -1,6 +1,6 @@
 {
   "name": "light-web-server",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Simple web server using PHP built-in web server.",
   "author": "Ivan Rozhon",
   "license": "MIT",
