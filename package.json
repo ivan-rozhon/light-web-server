@@ -25,11 +25,11 @@
   "homepage": "https://github.com/ivan-rozhon/light-web-server#readme",
   "dependencies": {
     "flags": "^0.1.3",
-    "shelljs": "^0.8.1"
+    "shelljs": "^0.8.2"
   },
   "devDependencies": {
-    "standard": "^11.0.0",
-    "tap": "^11.1.1"
+    "standard": "^11.0.1",
+    "tap": "^12.0.1"
   },
   "bin": {
     "lws": "bin/run.js"
