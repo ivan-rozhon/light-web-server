@@ -8,7 +8,7 @@
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 [![license](https://img.shields.io/npm/l/light-web-server.svg)](https://github.com/ivan-rozhon/light-web-server/blob/master/LICENSE)
 
-Simple web server using [PHP built-in web server](http://php.net/manual/en/features.commandline.webserver.php).
+Simple web server using [PHP built-in web server](http://php.net/manual/en/features.commandline.webserver.php). Windows only. If you are on macOS, locally installed PHP will be run (with given params).
 
 ## Prerequisites
 [Node.js and npm](https://nodejs.org/en/download/) already installed  on your machine.

@@ -9,7 +9,8 @@
     "pretest": "npm run fix",
     "test": "standard && tap test/test.js --coverage",
     "start": "node ./bin/run.js --dir=dist",
-    "fix": "standard --fix"
+    "fix": "standard --fix",
+    "stop": "killall -9 php"
   },
   "repository": {
     "type": "git",
