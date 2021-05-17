@@ -4,19 +4,19 @@ var run = require('../index').run
 var getCommand = require('../index').getCommand
 var execCommand = require('../index').execCommand
 
-test('empty flags - default port', function (t) {
-  var testCommand = getCommand('php-dir', '8000')
+test('empty flags - default host and port', function (t) {
+  var testCommand = getCommand('php-dir', 'localhost', '8000')
 
   t.is(typeof testCommand, 'string')
   t.is(testCommand, 'php-dir/php.exe -S localhost:8000')
   t.end()
 })
 
-test('port and dist flags defined', function (t) {
-  var testCommand = getCommand('php-dir', '9000', 'dist/')
+test('host, port and dist flags defined', function (t) {
+  var testCommand = getCommand('php-dir', '192.168.1.252', '9000', 'dist/')
 
   t.is(typeof testCommand, 'string')
-  t.is(testCommand, 'php-dir/php.exe -S localhost:9000 -t dist/')
+  t.is(testCommand, 'php-dir/php.exe -S 192.168.1.252:9000 -t dist/')
   t.end()
 })
 
